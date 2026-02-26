@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+  <Bundle Name="Dependency Installer for YoutubeGUI" IconSourceFile="Visuals\icon.ico"
+          Version="1.0.0.0"
+          Manufacturer="YouTube GUI"
+          UpgradeCode="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
+    <File Id="ApplicationExecutable" Source="DependenciesSetup.exe" />
+    <Shortcut Id="DesktopShortcut" Name="Dependency Setup" Description="Installs certain dependencies for YoutubeGUI" Icon="Visuals\icon.ico" WorkingDirectory="INSTALLFOLDER" Advertise="yes" />
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.HyperlinkLicense" />
+    <!-- Required by WixStandardBootstrapperApplication HyperlinkLicense theme -->
+    <WixVariable Id="WixStdbaLicenseUrl" Value="https://example.com/dependencies-installer-license" />
+    <WixVariable Id="WixUIDialogBmp" Value="Visuals\dialog.bmp" />
+    <Chain>
+      <!-- 1. Python via winget -->
+      <ExePackage Id="Python"
+                  DisplayName="Python"
+                  Description="Installs Python using winget."
+                  SourceFile="SetupHelper\SetupHelper.exe"
+                  InstallCommand="winget Python.Python.3.12"
+                  Vital="yes"
+                  Permanent="no"
+                  DetectCondition="0" />
+      <!-- 2. FFmpeg via winget -->
+      <ExePackage Id="FFmpeg"
+                  DisplayName="FFmpeg"
+                  Description="Installs FFmpeg using winget."
+                  SourceFile="SetupHelper\SetupHelper.exe"
+                  InstallCommand="winget Gyan.FFmpeg"
+                  Vital="yes"
+                  Permanent="no"
+                  DetectCondition="0" />
+      <!-- 3. yt-dlp via pip (requires Python to be installed first) -->
+      <ExePackage Id="YtDlp"
+                  DisplayName="yt-dlp"
+                  Description="Installs yt-dlp using pip."
+                  SourceFile="SetupHelper\SetupHelper.exe"
+                  InstallCommand="pip yt-dlp"
+                  Vital="yes"
+                  Permanent="no"
+                  DetectCondition="0" />
+    </Chain>
+  </Bundle>
+</Wix>
