@@ -1,0 +1,9 @@
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\YouTubeGui.pdb
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\download.py
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\icon.ico
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\D3DCompiler_47_cor3.dll
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\PenImc_cor3.dll
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\PresentationNative_cor3.dll
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\vcruntime140_cor3.dll
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\wpfgfx_cor3.dll
+C:\Users\Beans\vscode101\.vscode\ytproject\gui-csharp\publish\YouTubeGui.exe
