@@ -1,2 +1,0 @@
-C:\Users\Beans\vscode101\.vscode\DependenciesInstaller\_buildtemp\SetupHelper.pdb
-C:\Users\Beans\vscode101\.vscode\DependenciesInstaller\_buildtemp\SetupHelper.exe
