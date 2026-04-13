@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wT0tnBWlEd4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Beans\\vscode101\\.vscode\\DependenciesInstaller\\SetupHelper\\SetupHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Beans\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.25\\microsoft.net.illink.tasks.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
