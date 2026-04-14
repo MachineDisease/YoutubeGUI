@@ -1,0 +1,19 @@
+/* Basic skeleton styles for GitHub Pages site */
+:root{
+  --bg:#0f1720;
+  --card:#111827;
+  --accent:#ff4d4f;
+  --muted:#9ca3af;
+  --text:#e5e7eb;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Segoe UI,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#061221);color:var(--text)}
+header{padding:2rem;text-align:center}
+header h1{margin:0;font-size:2rem}
+.tagline{color:var(--muted);margin-top:.5rem}
+main{max-width:900px;margin:2rem auto;padding:1rem}
+footer{margin:3rem 0;text-align:center;color:var(--muted)}
+
+/* Responsive */
+@media(min-width:720px){header h1{font-size:2.6rem}}

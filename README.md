@@ -22,7 +22,7 @@
 
 ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MachineDisease/YoutubeGUI/latest/total?style=plastic&logo=Github&logoColor=%23101411&label=Releases&color=%23B6BFB8&link=https%3A%2F%2Fgithub.com%2FMachineDisease%2FYoutubeGUI%2Freleases)
 
-(For some reason download emblem is broken, click on releases)
+(For some reason download emblem is broken, click on releases manually under the description.)
 
 ## Installation
 
@@ -39,8 +39,8 @@ Test if all is installed correctly.
  ```bash
     #Check for proper install
     python --version
-    yt-dlp --version
-    ffmpeg --version
+    && yt-dlp --version
+    && ffmpeg --version
 ```
 If any commands return an unknown command, check your install!
 If all are installed correctly, download the .deb!
@@ -81,3 +81,7 @@ Refer to Linux, some things may be similar.
 - Other issues with Python console 
     - Run download.py manually with desired download options, this will prevent the console from closing after an error, do not double click it
         - Use cmd to launch download.py, as running it via cmd will cause the error to stay in the window until closed, unlike running it directly.
+
+### Linux
+
+Coming soon :)
