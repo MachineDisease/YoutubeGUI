@@ -1,27 +1,83 @@
 
-# ![Logo](https://private-user-images.githubusercontent.com/130098757/573099344-0f3549f0-e393-4868-b94c-576a70bcad34.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzUxNDk0MjgsIm5iZiI6MTc3NTE0OTEyOCwicGF0aCI6Ii8xMzAwOTg3NTcvNTczMDk5MzQ0LTBmMzU0OWYwLWUzOTMtNDg2OC1iOTRjLTU3NmE3MGJjYWQzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNDAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDQwMlQxNjU4NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMGYzYjlhODFkMDNkMDYxNTYzMDgwNzc3NWZhNWQ2YjE0YTI4NWFjY2VlZDM4MjlmNjZhNDFhYjA1ZmEyZTc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Xz8WNuSLL5t1ev0yOCGNWdOR8Ns9CSWpq294PahF1_Q) YoutubeGUI 
+![Logo](https://github.com/MachineDisease/YoutubeGUI/blob/main/Windows/Icon.png?raw=true)
+
+
+
+# YoutubeGUI
+
+### "The most mid thing since gravity" - Me
+
+### "Probabaly the worst thing i've ever used" - New York Times
+
+## NOTICE: MAC AND LINUX VERSIONS ARE NOT RELEASED YET.
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/j9JX7PyV/806619-A9-1110-47-A6-96-EE-97113589852-F.png)
+![App Screenshot](https://i.ibb.co/F4DqcCpc/793208-C9-4409-4-F4-D-A55-C-E6-A6543309-AA.png)
 
 
 
 
-## The most mid Youtube video downloader.
+## Downloads
+
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MachineDisease/YoutubeGUI/latest/total?style=plastic&logo=Github&logoColor=%23101411&label=Releases&color=%23B6BFB8&link=https%3A%2F%2Fgithub.com%2FMachineDisease%2FYoutubeGUI%2Freleases)
 
 
-#### Current status of YoutubeGUI
-Only available version as of April 2nd 2026 is Windows, Linux and Mac are in development along with visual updates and more support. 
-## Linux (Download not yet avaialble...)
 
+## Installation
+
+### Linux
 Install Dependencies
-
 ```bash
   #Dependencies - FFMPEG, Python, yt-dlp (via Python)
   sudo apt install FFMPEG
   && sudo apt install python3
   && sudo apt install python3-pip
   && pip install yt-dlp
-``` 
-## Screenshots
+```
+Test if all is installed correctly.
+ ```bash
+    #Check for proper install
+    python --version
+    yt-dlp --version
+    ffmpeg --version
+```
+If any commands return an unknown command, check your install!
+If all are installed correctly, download the .deb!
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+### Windows
+
+- Run the dependency isntaller included in the release zip
+    - If it fails, check your internet or install them manually!
+    ```bash
+  #Manual install <- Requires leveraged powershell! (Admin)
+  winget install ffmpeg
+  winget install python
+  pip install yt-dlp
+    ```
+- Run YoutubeGUI!
 
 
+## Troubleshooting
+
+### Mac 
+
+ ```bash
+¯\_(ツ)_/¯
+```
+Refer to Linux, some things may be similar.
+### Windows
+
+- Instant crash/No Launch at all 
+    - Missing dependencies
+        - Missing .net runtime (Comes with most windows computers, can be downloaded from here if needed https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+
+        - Missing FFMPEG, Python, or yt-dlp, refer to installation!
+
+- No download (Python console doesn't open) 
+    - Python most likely not installed (or installed incorrectly/corrupted)
+    - Check internet connection (May be failing to contact Youtube)
+    - Console closes instantly after pressing "Download" invalid link/invalid download options (Causing the download console to istantly crash.) Check download options.
+- Other issues with Python console 
+    - Run download.py manually with desired download options, this will prevent the console from closing after an error, do not double click it
+        - Use cmd to launch download.py, as running it via cmd will cause the error to stay in the window until closed, unlike running it directly.
