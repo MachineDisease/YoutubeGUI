@@ -7,7 +7,7 @@
 
 ### "The most mid thing since gravity" - Me
 
-### "Probabaly the worst thing i've ever used" - New York Times
+### "Probably the worst thing I've ever used" - New York Times
 
 ## NOTICE: MAC AND LINUX VERSIONS ARE NOT RELEASED YET.
 ## Screenshots
@@ -22,7 +22,7 @@
 
 ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MachineDisease/YoutubeGUI/latest/total?style=plastic&logo=Github&logoColor=%23101411&label=Releases&color=%23B6BFB8&link=https%3A%2F%2Fgithub.com%2FMachineDisease%2FYoutubeGUI%2Freleases)
 
-
+(For some reason download emblem is broken, click on releases)
 
 ## Installation
 
@@ -47,10 +47,10 @@ If all are installed correctly, download the .deb!
 
 ### Windows
 
-- Run the dependency isntaller included in the release zip
+- Run the dependency installer included in the release zip
     - If it fails, check your internet or install them manually!
     ```bash
-  #Manual install <- Requires leveraged powershell! (Admin)
+  #Manual install <- Requires leveraged PowerShell! (Admin)
   winget install ffmpeg
   winget install python
   pip install yt-dlp
@@ -70,7 +70,7 @@ Refer to Linux, some things may be similar.
 
 - Instant crash/No Launch at all 
     - Missing dependencies
-        - Missing .net runtime (Comes with most windows computers, can be downloaded from here if needed https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+        - Missing .NET runtime (Comes with most Windows computers, can be downloaded from here if needed https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
         - Missing FFMPEG, Python, or yt-dlp, refer to installation!
 
