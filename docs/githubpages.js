@@ -5,7 +5,7 @@ function startCountdown() {
 
     const interval = setInterval(() => {
         dots = (dots % 3) + 1;
-        element.textContent = `Unfinished, redirecting to repo${'.'.repeat(dots)} ${count}`;
+        element.headerContent = `Unfinished, redirecting to repo${'.'.repeat(dots)} ${count}`;
         
         count--;
         
