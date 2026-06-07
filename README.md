@@ -1,3 +1,14 @@
+# !IMPORTANT UPDATE!
+
+### I am abandoning YoutubeGUI.
+
+Unfortunately, because of an unfortunate failure of a HDD that stored all of my code for YotubeGUI, Trackrenamer, and other misc files.
+
+YoutubeGUI V1.2.2 will be the final version of YoutubeGUI, this repo will remain available, along with the most recent release.
+
+Along with this, I am announcing a new tool, not jus tfor downloading YouTube videos, but more as well. 
+
+## More to come soon! I thank you for supporting YoutubeGUI
 
 ![Logo](https://github.com/MachineDisease/YoutubeGUI/blob/main/Windows/Icon.png?raw=true)
 
